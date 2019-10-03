@@ -4,14 +4,13 @@ import youtube_dl
 import re
 
 class normal:
-    def manage():
+    def normal():
         @client.event
         async def on_message(message):
-
-	        if message.author == client.user: #봇이 채팅을 쳤을 때 명령어로 인식되지 않음
+	        if message.author == client.user: # Ignore bot's say
 		        return
-
-	        if message.content == "!n.hi":
-				await message.channel.send(message.channel, '안녕하세요! :)')
-	        if message.content.startswith('!n.ping'):
+	        if message.content == "%ahi" % prefix:
+	        if message.content == "%aping" % prefix:
 		        await message.channel.send(message.channel, 'pong!')
+            if message.content == "%aeasteregg" % prefix:
+				await message.channel.send(message.channel, '이이잉 앗살라말라이쿰~')
