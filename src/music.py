@@ -4,9 +4,8 @@ import youtube_dl
 import re
 
 # TODO: Put content in the class
-class music:
-    client = discord.Client()
-	que = {}
+client = discord.Client()
+que = {}
 playerlist = {}
 playlist = list() # Playlist
 
