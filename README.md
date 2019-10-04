@@ -12,7 +12,6 @@
     <a href="https://www.python.org/downloads" target="_blank"><img src="https://img.shields.io/badge/python-3.5%20%7C%203.6%20%7C%203.7-blue.svg" alt="ver"></a>
   <a href="https://www.python.org/downloads" target="_blank"><img src="https://img.shields.io/github/license/sevrino/neonbot" alt="license"></a>
   <a href="https://github.com/sevrino/neonbot/issues" target="_blank"><img src="https://img.shields.io/github/issues/sevrino/neonbot" alt="license"></a>
-  <a href="https://discordapp.com/oauth2/authorize?client_id=559709567903072256&scope=bot" target="_blank"><img src="https://img.shields.io/badge/bot-add!-blue?logo=discord" alt="license"></a>
   </p>
 
 -------------------
