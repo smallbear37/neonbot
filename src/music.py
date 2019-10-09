@@ -1,5 +1,4 @@
 import discord
-import asyncio
 import youtube_dl
 import re
 
@@ -35,7 +34,6 @@ async def on_message(message):
 		except IndexError:
 			await message.channel.send(message.channel, embed=discord.Embed(title=":no_entry_sign: url을 입력해주세요.",colour = 0x2EFEF7))
 			return
-
 		channel = message.author.voice.voice_channel 
 		server = message.server
 		voice_client = message.channel.voice_client_in(server)
@@ -89,11 +87,9 @@ async def on_message(message):
 		playerlist[id].stop()
 	
 	if message.content == "%anp" % prefix: # Check the playlist
-
 		if playlist == []:
 			await message.channel.send(message.channel, embed=discord.Embed(title=":no_entry_sign: 재생목록이 없습니다.",colour = 0x2EFEF7))
 			return
-
 		playstr = "```css\n[재생목록]\n\n"
 		for i in range(0, len(playlist)):
 			playstr += str(i+1)+" : "+playlist[i]+"\n"

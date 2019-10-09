@@ -4,7 +4,6 @@ import youtube_dl
 import re
 
 def manager():
-		
     @client.event
     async def on_message(message):
 
